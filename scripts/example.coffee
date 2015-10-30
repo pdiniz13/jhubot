@@ -11,8 +11,8 @@
 module.exports = (robot) ->
 
 #
-# robot.hear /I like pie/i, (res) ->
-#   res.emote "makes a freshly baked pie"
+ robot.respond /is marcos a moron/i, (res) ->
+   res.send "of course"
 #
 # lulz = ['lol', 'rofl', 'lmao']
 #
